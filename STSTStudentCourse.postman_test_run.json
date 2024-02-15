@@ -1,0 +1,497 @@
+{
+	"id": "7bfd27a2-2aeb-4249-9f93-b4d5902566b7",
+	"name": "STSTStudentCourse",
+	"timestamp": "2024-01-12T15:29:06.866Z",
+	"collection_id": "31902920-d7ccd50f-b4db-4d07-84c6-7624213e431e",
+	"folder_id": 0,
+	"environment_id": "31902920-da538342-79d3-4204-80cc-8362fe1a68d0",
+	"totalPass": 17,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2024-01-12T15:28:58.163Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "c4079dc0-4a9b-4651-8472-142ed9389054",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/",
+			"time": 866,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status Code name should have an OK string": true,
+				"Body matches string": true,
+				"confirm that apiVersion is 7.2.3.0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status Code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that apiVersion is 7.2.3.0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				866
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status Code name should have an OK string": true,
+					"Body matches string": true,
+					"confirm that apiVersion is 7.2.3.0": true
+				}
+			]
+		},
+		{
+			"id": "e946402e-3c3f-4a86-a960-ad3f66e57b8c",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status Code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status Code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				328
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status Code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "9d7c048f-e99b-4764-b3d1-ea37e198e251",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/",
+			"time": 334,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status Code name should have an OK string": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status Code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				334
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status Code name should have an OK string": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "60f49707-e1b3-4ac2-9582-e4ffa84ccc55",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/",
+			"time": 407,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status Code name should have an OK string": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status Code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				407
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status Code name should have an OK string": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "44bc5c14-98fa-4246-bb3a-55693ed1e094",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/",
+			"time": 1958,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1958
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "23c38b42-ddc6-45ec-906d-21041b44e9f5",
+			"name": "Get Books by ID",
+			"url": "https://demo.fusio-project.org/",
+			"time": 359,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				359
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cbd38da9-f693-4dfa-9b44-deef63bdc382",
+			"name": "Get Books by Type",
+			"url": "https://demo.fusio-project.org//books?type=fiction",
+			"time": 303,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				303
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "488ab0a4-66fd-47e3-a46f-319000e1a7b2",
+			"name": "Place a book order - using book ID",
+			"url": "https://demo.fusio-project.org//orders",
+			"time": 296,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				296
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "351255ac-9a34-4ecf-83c6-f8f4132a0e7e",
+			"name": "Get all orders",
+			"url": "https://demo.fusio-project.org/orders",
+			"time": 299,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				299
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "156a4937-e91a-4e66-a270-0acf8784d308",
+			"name": "Get an order - using orderID",
+			"url": "https://simple-books-api.glitch.me/orders/AaX7WGCUeHH3lRwGRh57M",
+			"time": 336,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				336
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f97b85ad-2571-4550-bca3-8e9f5074b3f8",
+			"name": "Update an order",
+			"url": "https://demo.fusio-project.org/orders/",
+			"time": 315,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				315
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2f98c22f-53d5-4d2c-b452-bc9c8667575b",
+			"name": "Delete an order",
+			"url": "https://demo.fusio-project.org//orders/rObASEWYlVrRX6cTAEgbt",
+			"time": 294,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				294
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0b09a08d-e753-470f-afd8-b8f8e2e1ada8",
+			"name": "Register API Client",
+			"url": "https://demo.fusio-project.org/api-clients/",
+			"time": 353,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				353
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c9380617-f631-4b08-8600-aedb806b5bed",
+			"name": "Get API Status",
+			"url": "https://demo.fusio-project.org/status",
+			"time": 305,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				305
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e11bba77-da79-4fc1-a254-1ecdbe30d1c4",
+			"name": "https://demo.fusio-project.org/index.php/",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 338,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"confirm that apiVersion is 7.2.3.0": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that apiVersion is 7.2.3.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				338
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"confirm that apiVersion is 7.2.3.0": true,
+					"Body matches string": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 7091,
+	"collection": {
+		"requests": [
+			{
+				"id": "c4079dc0-4a9b-4651-8472-142ed9389054",
+				"method": "GET"
+			},
+			{
+				"id": "e946402e-3c3f-4a86-a960-ad3f66e57b8c",
+				"method": "GET"
+			},
+			{
+				"id": "9d7c048f-e99b-4764-b3d1-ea37e198e251",
+				"method": "GET"
+			},
+			{
+				"id": "60f49707-e1b3-4ac2-9582-e4ffa84ccc55",
+				"method": "GET"
+			},
+			{
+				"id": "44bc5c14-98fa-4246-bb3a-55693ed1e094",
+				"method": "GET"
+			},
+			{
+				"id": "23c38b42-ddc6-45ec-906d-21041b44e9f5",
+				"method": "GET"
+			},
+			{
+				"id": "cbd38da9-f693-4dfa-9b44-deef63bdc382",
+				"method": "GET"
+			},
+			{
+				"id": "488ab0a4-66fd-47e3-a46f-319000e1a7b2",
+				"method": "POST"
+			},
+			{
+				"id": "351255ac-9a34-4ecf-83c6-f8f4132a0e7e",
+				"method": "GET"
+			},
+			{
+				"id": "156a4937-e91a-4e66-a270-0acf8784d308",
+				"method": "GET"
+			},
+			{
+				"id": "f97b85ad-2571-4550-bca3-8e9f5074b3f8",
+				"method": "POST"
+			},
+			{
+				"id": "2f98c22f-53d5-4d2c-b452-bc9c8667575b",
+				"method": "DELETE"
+			},
+			{
+				"id": "0b09a08d-e753-470f-afd8-b8f8e2e1ada8",
+				"method": "POST"
+			},
+			{
+				"id": "c9380617-f631-4b08-8600-aedb806b5bed",
+				"method": "GET"
+			},
+			{
+				"id": "e11bba77-da79-4fc1-a254-1ecdbe30d1c4",
+				"method": "GET"
+			},
+			{
+				"id": "acb94699-19ab-422c-88bf-6b285b3482f1",
+				"method": "GET"
+			}
+		]
+	}
+}
